@@ -1,0 +1,33 @@
+
+p#pogrubienie_kobierski{
+    font-size: 34px;
+    color: #E2EE92;
+}
+
+#pochylona_kobierski{
+    font-size: 39pt;
+    color: #0ECB1C6E;
+}
+
+#index_gorny_kobierski{
+    font-size: 1,4cm;
+    color: #01009096;
+}
+
+#index_dolny_kobierski{
+    font-size: 2,3cm;
+    color: rgb(29%,93%,88%);
+}
+
+#mono_kobierski{
+    font-size: 44px;
+    color: #0265BD9E;
+}
+
+#powiekszenie_kobierski{
+    color: #00962DF0;
+}
+
+#pomniejszenie_kobierski{
+    color: rgb(80%,62%,21%);
+}

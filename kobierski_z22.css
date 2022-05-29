@@ -1,0 +1,17 @@
+p
+{
+    font-size: 30pt;
+    color: red;
+}
+#gruby_kobierski
+{
+    font-size: 20pt;
+    color: green;
+    font-weight: bold;
+}
+#dlawszyskich_kobierski
+{
+    font-size: 10 pt;
+    color: yellow;
+    font-family: 'Arial';
+}
