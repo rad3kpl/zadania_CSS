@@ -1,0 +1,28 @@
+div#blok1_Kobierski{
+    width: 611px;
+    background-color: green;
+}
+div#blok2_Kobierski{
+    width: 611px;
+    background-color: green;
+}
+div#blok3_Kobierski{
+    width: 611px;
+    background-color: green;
+}
+div#blok1_Kobierski:hover{
+    font-size: 19mm;
+    background-color: silver;
+}
+div#blok2_Kobierski:hover{
+    font-size: 19mm;
+    background-color: yellow;
+}
+div#blok3_Kobierski:hover{
+    font-size: 19mm;
+    background-color: turquoise;
+}
+/*
+    Radosław Kobierski
+    hover: - selektor służy do wybierania elementów po najechaniu na nie myszką
+*/
