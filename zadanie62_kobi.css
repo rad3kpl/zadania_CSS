@@ -1,0 +1,16 @@
+body{
+    background-color: silver;
+}
+p{
+    font-size: 6mm;
+    color:lightgreen;
+
+}
+p:lang(pl){
+    font-size: 7mm;
+    color:red;
+}
+p:lang(en){
+    color:orange;
+    font-size:11mm;
+}

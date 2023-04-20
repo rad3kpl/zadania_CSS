@@ -1,0 +1,59 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>zadanie 62 kod</title>
+  <style>
+    textarea{
+      width: 100%;
+      height: 400px;
+    }
+  </style>
+  <p>kod HTML</p>
+<textarea>
+  <html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="zadanie62_kobi.css">
+    </head>
+    <body>
+        <p>tekst bez lang<br><u>Uwaga1:</u><br>
+        Język Css dopuszcza stosowanie zarówno dużych jak i małych liter.<br>
+        Poprawnymi nazwami atrybutu sa background, backGROUNG oraz BACKground.<br>
+        <u>Uwaga2:</u><br>
+        Wstawienie białych znaków (spacje, tablulacje, znaki nowej linii) w arkuszu CSS nie ma wpływu na jego działanie.<br><br>
+        </p>
+        <p lang="pl">
+            Polski lang<br>
+            <u>CSS</u>-kaskadowe Arkusze stylów( z ang. Cascading Style sheet) jest to specjalny <br>
+            jezyk stowrzony w celuelastycznego zarządzania sposobem formatowania(wyglądem)<br>
+            elementów znajdujących sie na stronach WWW.
+        </p:lang>
+        <p lang="en">angielski lang<br>
+            <u>CSS- Cascading style sheet</u> is a specjal language created to flexibly<br>
+            manage the formatting (appearance) of elements on web pages.
+        </p>
+    </body>
+    </html>
+</textarea>
+
+<p>kod CSS</p>
+<textarea>
+  body{
+    background-color: silver;
+}
+p{
+    font-size: 6mm;
+    color:lightgreen;
+
+}
+p:lang(pl){
+    font-size: 7mm;
+    color:red;
+}
+p:lang(en){
+    color:orange;
+    font-size:11mm;
+}
+</textarea>
+  </body>
+</html>
